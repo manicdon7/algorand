@@ -6,7 +6,6 @@ import { request, gql } from 'graphql-request';
 
 const API_KEY = 'BQYprhw0lsQDm1T1nKKi6izOwlettE7C';
 
-
 const AlgoApiBuilder = () => {
   const [userWalletAddress, setUserWalletAddress] = useState(null);
   const [balance, setBalance] = useState(null);
