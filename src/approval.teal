@@ -1,0 +1,14 @@
+// Global variables
+int 1
+byte "counter"
+app_global_get
+
+// Increment counter by 1
+int 1
++
+
+// Save the updated value
+byte "counter"
+app_global_put
+
+int 1
