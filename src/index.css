@@ -15,3 +15,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.connect-wallet, .theme-toggle, button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.connect-wallet {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.theme-toggle {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Add more styling as needed */
